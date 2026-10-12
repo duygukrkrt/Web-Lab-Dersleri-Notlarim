@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table background="resim.jpeg" widht="300" height="300" align="center" bgcolor="yellow" bordercolor="pink" border="1">
+        <thead>BURASI TABLONUN BAŞLIĞIDIR</thead>
+        <caption align="bottom">ALTYAZI </caption align>
+        <tr>
+            <td><b>1.sütun</b></td>
+            <td><b>2.sütun</b></td>
+        </tr>
+        <tr>
+            <td>1.1</td>
+            <td>1.2</td>
+        </tr>
+        <tr >
+            <td>2.1</td>
+            <td>2.2</td>
+        </tr>    
+    </table>
+
+    <table border="1">
+        <tr>
+            <td colspan="3">A</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td rowspan="2">F</td>
+            <td>G</td>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+</body>
+</html>
